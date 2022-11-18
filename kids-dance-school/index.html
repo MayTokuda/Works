@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>ダンススクール</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/menu.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__line">
+        <h1 class="header__title">大阪でダンスレッスンに通うなら<br class="visible-sp">キッズダンススクール</h1>
+      </div>
+      <div class="header__block">
+        <img class="header__logo" src="img/dance_school__logo.png" alt=""></h1>
+        <div class="header__contact">
+          <img class="visible-pc" src="img/tel.svg" alt="">
+          <img class="visible-sp" src="img/tel2.png" alt="">
+          <a class="header__reserve" href="#"><img src="img/reserve.png" alt=""></a>
+        </div>
+      </div>
+
+      <div class="header__block2">
+        <!-- mv -->
+        <img class="header__mv flex-item-3" src="img/mv3.png" alt="">
+        <!-- hamburger-menu -->
+        <div class="hamburger flex-item-1">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <!-- nav-menu -->
+        <nav class="header-nav globalMenuSp  flex-item-2">
+          <ul class="header-nav__list">
+              <li class="header-nav__item"><a class="header-nav__link" href="#" >トップ</a></li>
+              <li class="header-nav__item"><a class="header-nav__link" href="#">店舗</a></li>
+              <li class="header-nav__item"><a class="header-nav__link" href="#">クラス編成</a></li>
+              <li class="header-nav__item"><a class="header-nav__link" href="#">講師紹介</a></li>
+              <li class="header-nav__item"><a class="header-nav__link" href="#">お客様の声</a></li>
+              <li class="header-nav__item"><a class="header-nav__link" href="#">Q＆A</a></li>
+              <li class="header-nav__item"><a class="header-nav__link" href="#">お問合せ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+      <main class="main">
+        <!-- 新着情報 -->
+        <section id="news">
+          <h2 class="section__title">新着情報</h2>
+          <ul class="news__list">
+            <li class="news__item">
+              <time class="news__date" datetime="2021-03-01">2021年3月1日（火）</time>
+              <a class="news__title visible-pc" href="#">新着タイトルダミーテキスト新着タイトルダミーテキスト</a>
+              <a class="news__title visible-sp" href="#">タイトルタイトルタイトルタイトルタイトル</a>
+            </li>
+            <li class="news__item">
+              <time class="news__date" datetime="2021-03-01">2021年3月1日（火）</time>
+              <a class="news__title visible-pc" href="#">新着タイトルダミーテキスト新着タイトルダミーテキスト</a>
+              <a class="news__title visible-sp" href="#">タイトルタイトルタイトルタイトルタイトル</a>
+            </li>
+            <li class="news__item">
+              <time class="news__date" datetime="2021-03-01">2021年3月1日（火）</time>
+              <a class="news__title visible-pc" href="#">新着タイトルダミーテキスト新着タイトルダミーテキスト</a>
+              <a class="news__title visible-sp" href="#">タイトルタイトルタイトルタイトルタイトル</a>
+            </li>
+          </ul>
+          <a class="news__more-btn" href="#">新着情報一覧へ</a>
+        </section>
+        <!-- クラス一覧 -->
+        <section id="corse">
+          <h2 class="section__title">各クラスのご紹介</h2>
+          <p class="corse__text">当スクールのクラスをご紹介します。<br>保育士免許を持った講師も在籍しておりますので、小さなお子様もお楽しみいただけます！</p>
+          <ul class="corse__list">
+            <li class="corse__item">
+              <img src="img/menu1.png" alt="">
+              <p class="corse__subtitle">初めてのダンスレッスン</p>
+              <h3 class="corse__title">入門クラス</h3>
+              <a class="corse__more" href="#">詳細を見る</a>
+            </li>
+            <li class="corse__item">
+              <img src="img/menu2.png" alt="">
+              <p class="corse__subtitle">小学生向きレッスン</p>
+              <h3 class="corse__title">基礎クラス</h3>
+              <a class="corse__more" href="#">詳細を見る</a>
+            </li>
+            <li class="corse__item">
+              <img src="img/menu3.png" alt="">
+              <p class="corse__subtitle">中高生向きレッスン</p>
+              <h3 class="corse__title">中級クラス</h3>
+              <a class="corse__more" href="#">詳細を見る</a>
+            </li>
+          </ul>
+        </section>
+        <!-- お客様の声 -->
+        <section id="voice">
+          <h2 class="section__title">お客様の声</h2>
+          <ul class="voice__list">
+            <li class="voice__item">
+              <img class="voice__img" src="img/voice1.jpg" alt="">
+              <div class="voice__text">
+                <h3 class="voice__title">最高の思い出になりました。</h3>
+                <p class="voice__detail">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <p class="voice__category">2022年3月　基礎コース</p>
+              </div>
+            </li>
+            <li class="voice__item">
+              <img class="voice__img" src="img/voice2.jpg" alt="">
+              <div class="voice__text">
+                <h3 class="voice__title">親切な指導で本当に楽しかったです！</h3>
+                <p class="voice__detail">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <p class="voice__category">2022年3月　中級コース</p>
+              </div>
+            </li>
+            <li class="voice__item">
+              <img class="voice__img" src="img/voice3.jpg" alt="">
+              <div class="voice__text">
+                <h3 class="voice__title">親子で参加！子供の新たな発見があります。</h3>
+                <p class="voice__detail">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <p class="voice__category">2022年3月　入門コース</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <div class="visible-pc contact">
+          <img class="contact__tel visible-pc" src="img/tel.svg" alt="">
+          <a class="contact__reserve visible-pc" href="#"><img src="img/reserve2.png" alt=""></a>
+        </div>
+      </main>
+
+      <!-- サイドバー -->
+      <aside class="aside">
+        <a  class="aside__reserve" href="#"><img src="img/reserve.png" alt=""></a>
+        <!-- 体験の様子 -->
+        <section id="aside-watch">
+          <h2 class="aside-section__title">体験の様子を見る</h2>
+          <iframe class="aside-watch__mov" src="https://www.youtube.com/embed/POY_lDQddDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="560" height="315"></iframe>
+        </section>
+        <!-- 店舗案内 -->
+        <section id="about" class="about">
+          <h2 class="aside-section__title">店舗案内</h2>
+          <img class="aside-section__store" src="img/store.jpg" alt="">
+          <p class="about__detail">06-XXXX-XXXX<br>
+            大阪府ＸＸＸＸＸＸＸＸＸＸＸ<br>
+            営業時間：10:00～19:00</p>
+        </section>
+        <!-- スタッフブログ -->
+        <section id="blog">
+          <h2 class="aside-section__title">スタッフブログ</h2>
+          <ul class="blog__list">
+            <li class="blog__item">
+              <time class="blog__date" datetime="2022-03-01">2022年3月1日（火）</time>
+              <a class="blog__title" href="#">スタッフブログタイトルダミーテキストスタッフブログタイトル</a>
+            </li>
+            <li class="blog__item">
+              <time class="blog__date" datetime="2022-03-01">2022年3月1日（火）</time>
+              <a class="blog__title" href="#">スタッフブログタイトルダミーテキストスタッフブログタイトル</a>
+            </li>
+            <li class="blog__item">
+              <time class="blog__date" datetime="2022-03-01">2022年3月1日（火）</time>
+              <a class="blog__title" href="#">スタッフブログタイトルダミーテキストスタッフブログタイトル</a>
+            </li>
+          </ul>
+        </section>
+        <a class="aside__banner" href="#" target="_blank">関連サイトのバナー予定</a>
+        <a class="aside__banner" href="#">関連サイトのバナー予定</a>
+        <a class="aside__banner" href="#">関連サイトのバナー予定</a>
+        <a class="aside__online" href="#"><img src="img/online-store.png" alt=""></a>
+        <div class="contact visible-sp">
+          <img class="contact__tel" src="img/tel.svg" alt="">
+          <img class="contact__reserve" src="img/reserve2.png" alt="">
+        </div>
+
+      </aside>
+    </div>
+
+    <footer class="footer">
+      <!-- hamburger-menu -->
+      <div class="footer__hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <!-- footer-nav-menu -->
+      <nav class="footer-nav globalMenuSp">
+        <ul class="footer-nav__list">
+            <li class="footer-nav__item"><a class="footer-nav__link" href="#" >トップ</a></li>
+            <li class="footer-nav__item"><a class="footer-nav__link" href="#">店舗</a></li>
+            <li class="footer-nav__item"><a class="footer-nav__link" href="#">クラス編成</a></li>
+            <li class="footer-nav__item"><a class="footer-nav__link" href="#">講師紹介</a></li>
+            <li class="footer-nav__item"><a class="footer-nav__link" href="#">お客様の声</a></li>
+            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Q＆A</a></li>
+            <li class="footer-nav__item"><a class="footer-nav__link" href="#">お問合せ</a></li>
+        </ul>
+      </nav>
+      <div class="footer__contact">
+        <img class="footer__logo" src="img/dance_school__logo.png" alt=""></h1>
+        <img class="footer__tel" src="img/tel.svg" alt="">
+      </div>
+      <p class="copyright">©2022 Kids School</p>
+    </footer>
+  </body>
+</html>
