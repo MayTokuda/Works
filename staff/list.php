@@ -50,7 +50,7 @@
                         <time class="staff__date">2022年3月1日（火）</time>
                         <p class="staff__detail">インタビューテキストインタビューテキストインタビューテキスト
                             インタビューテキストインタビューテキストインタビューテキストインタビューテキスト</p>
-                        <a class="staff-detail__more-btn" href="#">続きを読む<span class="arrow-right icon"></span></a>
+                        <a class="staff-detail__more-btn" href="php__detail/detail-2.php">続きを読む<span class="arrow-right icon"></span></a>
                     </li>
                     <li class="staff__item">
                         <img class="staff__img" src="img/staff-3.png" alt="">
@@ -58,7 +58,7 @@
                         <time class="staff__date">2022年3月1日（火）</time>
                         <p class="staff__detail">インタビューテキストインタビューテキストインタビューテキスト
                             インタビューテキストインタビューテキストインタビューテキストインタビューテキスト</p>
-                        <a class="staff-detail__more-btn" href="#">続きを読む<span class="arrow-right icon"></span></a>
+                        <a class="staff-detail__more-btn" href="php__detail/detail-3.php">続きを読む<span class="arrow-right icon"></span></a>
                     </li>
                     <li class="staff__item">
                         <img class="staff__img" src="img/staff-4.png" alt="">
@@ -66,7 +66,7 @@
                         <time class="staff__date">2022年3月1日（火）</time>
                         <p class="staff__detail">インタビューテキストインタビューテキストインタビューテキスト
                             インタビューテキストインタビューテキストインタビューテキストインタビューテキスト</p>
-                        <a class="staff-detail__more-btn" href="#">続きを読む<span class="arrow-right icon"></span></a>
+                        <a class="staff-detail__more-btn" href="php__detail/detail-4.php">続きを読む<span class="arrow-right icon"></span></a>
                     </li>
                     <li class="staff__item">
                         <img class="staff__img" src="img/staff-5.png" alt="">
@@ -74,7 +74,7 @@
                         <time class="staff__date">2022年3月1日（火）</time>
                         <p class="staff__detail">インタビューテキストインタビューテキストインタビューテキスト
                             インタビューテキストインタビューテキストインタビューテキストインタビューテキスト</p>
-                        <a class="staff-detail__more-btn" href="#">続きを読む<span class="arrow-right icon"></span></a>
+                        <a class="staff-detail__more-btn" href="php__detail/detail-5.php">続きを読む<span class="arrow-right icon"></span></a>
                     </li>
                     <li class="staff__item">
                         <img class="staff__img" src="img/staff-6.png" alt="">
@@ -82,7 +82,7 @@
                         <time class="staff__date">2022年3月1日（火）</time>
                         <p class="staff__detail">インタビューテキストインタビューテキストインタビューテキスト
                             インタビューテキストインタビューテキストインタビューテキストインタビューテキスト</p>
-                        <a class="staff-detail__more-btn" href="#">続きを読む<span class="arrow-right icon"></span></a>
+                        <a class="staff-detail__more-btn" href="php__detail/detail-6.php">続きを読む<span class="arrow-right icon"></span></a>
                     </li>
                     <li class="staff__item">
                         <img class="staff__img" src="img/staff-7.png" alt="">
@@ -90,7 +90,7 @@
                         <time class="staff__date">2022年3月1日（火）</time>
                         <p class="staff__detail">インタビューテキストインタビューテキストインタビューテキスト
                             インタビューテキストインタビューテキストインタビューテキストインタビューテキスト</p>
-                        <a class="staff-detail__more-btn" href="#">続きを読む<span class="arrow-right icon"></span></a>
+                        <a class="staff-detail__more-btn" href="php__detail/detail-7.php">続きを読む<span class="arrow-right icon"></span></a>
                     </li>
                     <li class="staff__item">
                         <img class="staff__img" src="img/staff-8.png" alt="">
@@ -98,7 +98,7 @@
                         <time class="staff__date">2022年3月1日（火）</time>
                         <p class="staff__detail">インタビューテキストインタビューテキストインタビューテキスト
                             インタビューテキストインタビューテキストインタビューテキストインタビューテキスト</p>
-                        <a class="staff-detail__more-btn" href="#">続きを読む<span class="arrow-right icon"></span></a>
+                        <a class="staff-detail__more-btn" href="php__detail/detail-8.php">続きを読む<span class="arrow-right icon"></span></a>
                     </li>
                     <li class="staff__item">
                         <img class="staff__img" src="img/staff-9.png" alt="">
@@ -106,7 +106,7 @@
                         <time class="staff__date">2022年3月1日（火）</time>
                         <p class="staff__detail">インタビューテキストインタビューテキストインタビューテキスト
                             インタビューテキストインタビューテキストインタビューテキストインタビューテキスト</p>
-                        <a class="staff-detail__more-btn" href="#">続きを読む<span class="arrow-right icon"></span></a>
+                        <a class="staff-detail__more-btn" href="php__detail/detail-9.php">続きを読む<span class="arrow-right icon"></span></a>
                     </li>
                     <li class="staff__item">
                         <img class="staff__img" src="img/staff-10.png" alt="">
@@ -114,7 +114,7 @@
                         <time class="staff__date">2022年3月1日（火）</time>
                         <p class="staff__detail">インタビューテキストインタビューテキストインタビューテキスト
                             インタビューテキストインタビューテキストインタビューテキストインタビューテキスト</p>
-                        <a class="staff-detail__more-btn" href="#">続きを読む<span class="arrow-right icon"></span></a>
+                        <a class="staff-detail__more-btn" href="php__detail/detail-10.php">続きを読む<span class="arrow-right icon"></span></a>
                     </li>
                     <li class="staff__item">
                         <img class="staff__img" src="img/staff-11.png" alt="">
@@ -122,7 +122,7 @@
                         <time class="staff__date">2022年3月1日（火）</time>
                         <p class="staff__detail">インタビューテキストインタビューテキストインタビューテキスト
                             インタビューテキストインタビューテキストインタビューテキストインタビューテキスト</p>
-                        <a class="staff-detail__more-btn" href="#">続きを読む<span class="arrow-right icon"></span></a>
+                        <a class="staff-detail__more-btn" href="php__detail/detail-11.php">続きを読む<span class="arrow-right icon"></span></a>
                     </li>
                     <li class="staff__item">
                         <!-- 空ボックス（※ボックスの数は３の倍数にする） -->

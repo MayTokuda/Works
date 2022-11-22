@@ -7,7 +7,7 @@
         <link rel="shortcut icon" href="img/favicon.ico">
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
         <link rel="stylesheet" href="../style.css">
-        <title>テラノデザイン工房 | スタッフ１</title>
+        <title>テラノデザイン工房 | スタッフ８</title> <!--🟪-->
     </head>
 
     <body>
@@ -34,7 +34,7 @@
                 <div class="staff__box">
                     <h2 class="page-title">名前が入ります（職種が入ります）</h2>
 
-                    <img class="staff__img" src="../img/staff-1.png" alt="">
+                    <img class="staff__img" src="../img/staff-8.png" alt=""><!--🟪-->
                     <time class="staff__date">2022年3月1日（火）</time>
                     <ul class="staff__sns">
                         <a class="staff__sns__link" href="twitter://”">T</a>
@@ -44,7 +44,7 @@
                     <ul class="article__list">
                         <!-- 画像が右もしくは画像なしの場合 -->
                         <li class="article__item">
-                            <h4 class="article__title">毎日がワクワクの連続です</h4>
+                            <h4 class="article__title">タイトルタイトルタイトル</h4>
                             <img class="article__img__right" src="../img/article-img.jpg" alt="" oncontextmenu="return false;">
                             <p class="article__text visible-pc">インタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキスト
                                 インタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキスト
@@ -56,7 +56,7 @@
                         </li>
                         <!-- 画像が左の場合 -->
                         <li class="article__item">
-                            <h4 class="article__title">専門性を身に付けて仕事の幅を広げる</h4>
+                            <h4 class="article__title">タイトルタイトルタイトルタイトル</h4>
                             <img class="article__img__left" src="../img/article-img.jpg" alt="" oncontextmenu="return false;">
                             <p class="article__text visible-pc">インタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキスト
                                 インタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキスト
@@ -91,15 +91,22 @@
                 <!-- インタビュー -->
                 <h3 class="interview__title">インタビュー</h3>
                 <div class="interview__list">
+                    <a class="interview__item" href="detail-1.php">
+                        <img  class="interview__img" src="../img/staff-1.png" alt="" >
+                        <div class="interview__detail">
+                            <h5 class="interview__name">名前が入ります（職種が入ります）</h5>
+                            <time class="interview__date">2022年3月1日（火）</time>
+                        </div>
+                    </a>
                     <a class="interview__item" href="detail-2.php">
-                        <img  class="interview__img" src="../img/staff-2.png" alt="" >
+                        <img  class="interview__img" src="../img/staff-2.png" alt=""><!--🟪-->
                         <div class="interview__detail">
                             <h5 class="interview__name">名前が入ります（職種が入ります）</h5>
                             <time class="interview__date">2022年3月1日（火）</time>
                         </div>
                     </a>
                     <a class="interview__item" href="detail-3.php">
-                        <img  class="interview__img" src="../img/staff-3.png" alt="">
+                        <img class="interview__img" src="../img/staff-3.png" alt="">
                         <div class="interview__detail">
                             <h5 class="interview__name">名前が入ります（職種が入ります）</h5>
                             <time class="interview__date">2022年3月1日（火）</time>
@@ -128,13 +135,6 @@
                     </a>
                     <a class="interview__item" href="detail-7.php">
                         <img class="interview__img" src="../img/staff-7.png" alt="">
-                        <div class="interview__detail">
-                            <h5 class="interview__name">名前が入ります（職種が入ります）</h5>
-                            <time class="interview__date">2022年3月1日（火）</time>
-                        </div>
-                    </a>
-                    <a class="interview__item" href="detail-8.php">
-                        <img class="interview__img" src="../img/staff-8.png" alt="">
                         <div class="interview__detail">
                             <h5 class="interview__name">名前が入ります（職種が入ります）</h5>
                             <time class="interview__date">2022年3月1日（火）</time>

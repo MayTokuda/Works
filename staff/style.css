@@ -465,6 +465,9 @@ li {
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
+.interview__item:last-child{
+    border-bottom: 1px dashed #727272;;
+}
 .interview__img{
     width: 60px;
     height: 60px;
