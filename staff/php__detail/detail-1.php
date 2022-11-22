@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="img/favicon.ico">
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../style.css">
         <title>テラノデザイン工房 | スタッフ１</title>
     </head>
 
@@ -15,14 +15,14 @@
         <header class="header">
             <div class="header__inner">
                 <div class="header__item">
-                    <h1 class="site-title visible-pc"><img src="img/logo.png" alt=""></h1></li>
-                    <div class="header__link visible-pc"><a href="index.html">スタッフ紹介</a></div>
+                    <h1 class="site-title"><a href="#"><img src="../img/logo.png" alt=""></a></h1>
+                    <div class="header__link visible-pc"><a href="index.php">スタッフ紹介</a></div>
                 </div>
                 <!-- パンくず -->
                 <nav class="breadcrumb" aria-label="Breadcrumb">
                     <ul class="breadcrumb__list">
                         <li class="breadcrumb__item"><a href="#">HOME</a></li>
-                        <li class="breadcrumb__item"><a href="index.html">スタッフ紹介</a></li>
+                        <li class="breadcrumb__item"><a href="../index.php">スタッフ紹介</a></li>
                         <li class="breadcrumb__item"><span aria-current="location">名前が入ります（職種が入ります）</span></li>
                     </ul>
                 </nav>
@@ -34,7 +34,7 @@
                 <div class="staff__box">
                     <h2 class="page-title">名前が入ります（職種が入ります）</h2>
 
-                    <img class="staff__img" src="img/staff-1.png" alt="">
+                    <img class="staff__img" src="../img/staff-1.png" alt="">
                     <time class="staff__date">2022年3月1日（火）</time>
                     <ul class="staff__sns">
                         <a class="staff__sns__link" href="twitter://”">T</a>
@@ -45,7 +45,7 @@
                         <!-- 画像が右もしくは画像なしの場合 -->
                         <li class="article__item">
                             <h4 class="article__title">毎日がワクワクの連続です</h4>
-                            <img class="article__img__right" src="img/article-img.jpg" alt="" oncontextmenu="return false;">
+                            <img class="article__img__right" src="../img/article-img.jpg" alt="" oncontextmenu="return false;">
                             <p class="article__text visible-pc">インタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキスト
                                 インタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキスト
                                 インタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビュー
@@ -57,7 +57,7 @@
                         <!-- 画像が左の場合 -->
                         <li class="article__item">
                             <h4 class="article__title">専門性を身に付けて仕事の幅を広げる</h4>
-                            <img class="article__img__left" src="img/article-img.jpg" alt="" oncontextmenu="return false;">
+                            <img class="article__img__left" src="../img/article-img.jpg" alt="" oncontextmenu="return false;">
                             <p class="article__text visible-pc">インタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキスト
                                 インタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキスト
                                 インタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビューテキストインタビュー<br>
@@ -73,7 +73,7 @@
                     </ul>
                 </div>
                 <!-- 一覧へのリンク -->
-                <a class="staff-list__more-btn"href="list-1.html">スタッフ一覧へ戻る<span class="arrow-right icon more-btn__icon"></span></a>
+                <a class="staff-list__more-btn" href="../list.php">スタッフ一覧へ戻る<span class="arrow-right icon more-btn__icon"></span></a>
 
                 <!-- ページネーション -->
                 <ul class="pagination">
@@ -92,70 +92,70 @@
                 <h3 class="interview__title">インタビュー</h3>
                 <div class="interview__list">
                     <a class="interview__item" href="#">
-                        <img  class="interview__img" src="img/staff-2.png" alt="" >
+                        <img  class="interview__img" src="../img/staff-2.png" alt="" >
                         <div class="interview__detail">
                             <h5 class="interview__name">名前が入ります（職種が入ります）</h5>
                             <time class="interview__date">2022年3月1日（火）</time>
                         </div>
                     </a>
                     <a class="interview__item" href="#">
-                        <img  class="interview__img" src="img/staff-3.png" alt="">
+                        <img  class="interview__img" src="../img/staff-3.png" alt="">
                         <div class="interview__detail">
                             <h5 class="interview__name">名前が入ります（職種が入ります）</h5>
                             <time class="interview__date">2022年3月1日（火）</time>
                         </div>
                     </a>
                     <a class="interview__item" href="#">
-                        <img class="interview__img" src="img/staff-4.png" alt="">
+                        <img class="interview__img" src="../img/staff-4.png" alt="">
                         <div class="interview__detail">
                             <h5 class="interview__name">名前が入ります（職種が入ります）</h5>
                             <time class="interview__date">2022年3月1日（火）</time>
                         </div>
                     </a>
                     <a class="interview__item" href="#">
-                        <img class="interview__img" src="img/staff-5.png" alt="">
+                        <img class="interview__img" src="../img/staff-5.png" alt="">
                         <div class="interview__detail">
                             <h5 class="interview__name">名前が入ります（職種が入ります）</h5>
                             <time class="interview__date">2022年3月1日（火）</time>
                         </div>
                     </a>
                     <a class="interview__item" href="#">
-                        <img class="interview__img" src="img/staff-6.png" alt="">
+                        <img class="interview__img" src="../img/staff-6.png" alt="">
                         <div class="interview__detail">
                             <h5 class="interview__name">名前が入ります（職種が入ります）</h5>
                             <time class="interview__date">2022年3月1日（火）</time>
                         </div>
                     </a>
                     <a class="interview__item" href="#">
-                        <img class="interview__img" src="img/staff-7.png" alt="">
+                        <img class="interview__img" src="../img/staff-7.png" alt="">
                         <div class="interview__detail">
                             <h5 class="interview__name">名前が入ります（職種が入ります）</h5>
                             <time class="interview__date">2022年3月1日（火）</time>
                         </div>
                     </a>
                     <a class="interview__item" href="#">
-                        <img class="interview__img" src="img/staff-8.png" alt="">
+                        <img class="interview__img" src="../img/staff-8.png" alt="">
                         <div class="interview__detail">
                             <h5 class="interview__name">名前が入ります（職種が入ります）</h5>
                             <time class="interview__date">2022年3月1日（火）</time>
                         </div>
                     </a>
                     <a class="interview__item" href="#">
-                        <img class="interview__img" src="img/staff-9.png" alt="">
+                        <img class="interview__img" src="../img/staff-9.png" alt="">
                         <div class="interview__detail">
                             <h5 class="interview__name">名前が入ります（職種が入ります）</h5>
                             <time class="interview__date">2022年3月1日（火）</time>
                         </div>
                     </a>
                     <a class="interview__item" href="#">
-                        <img class="interview__img" src="img/staff-10.png" alt="">
+                        <img class="interview__img" src="../img/staff-10.png" alt="">
                         <div class="interview__detail">
                             <h5 class="interview__name">名前が入ります（職種が入ります）</h5>
                             <time class="interview__date">2022年3月1日（火）</time>
                         </div>
                     </a>
                     <a class="interview__item" href="#">
-                        <img class="interview__img" src="img/staff-11.png" alt="">
+                        <img class="interview__img" src="../img/staff-11.png" alt="">
                         <div class="interview__detail">
                             <h5 class="interview__name">名前が入ります（職種が入ります）</h5>
                             <time class="interview__date">2022年3月1日（火）</time>
@@ -166,56 +166,11 @@
 
         </div>
 
-        <aside>
-            <div class="container">
-                <!-- バナー -->
-                <ul class="banner__list visible-pc">
-                    <li class="banner__item">
-                        <a class="banner__link" href="#"><img src="img/banner-img.jpg" alt=""></a>
-                    </li>
-                    <li class="banner__item">
-                        <a class="banner__link" href="#"><img src="img/banner-img.jpg" alt=""></a>
-                    </li>
-                    <li class="banner__item">
-                        <a class="banner__link" href="#"><img src="img/banner-img.jpg" alt=""></a>
-                    </li>
-                    <li class="banner__item">
-                        <a class="banner__link" href="#"><img src="img/banner-img.jpg" alt=""></a>
-                    </li>
-                    <li class="banner__item">
-                        <a class="banner__link" href="#"><img src="img/banner-img.jpg" alt=""></a>
-                    </li>
-                    <li class="banner__item">
-                        <a class="banner__link" href="#"><img src="img/banner-img.jpg" alt=""></a>
-                    </li>
-                </ul>
-            </div>
-        </aside>
-
+        <!-- aside -->
+        <?php include "../php__aside.php" ?>
 
         <!-- フッター -->
-        <footer class="footer">
-            <div class="container">
-                <ul class="footer__block">
-                    <!-- 会社情報 -->
-                    <li class="footer__item footer__company">
-                        <h4 class="company-name">テラノデザイン工房</h4>
-                        <p class="company-address">
-                            東京都渋谷区ＸＸＸＸＸＸＸＸＸＸＸＸＸ<br>
-                            ＸＸＸＸＸＸＸＸ　３階<br>
-                            TEL 03-XXXX-XXXX　FAX 03-XXXX-XXXX
-                        </p>
-                    </li>
-                    <!-- 外部リンク -->
-                    <li class="footer__item footer__link">
-                        <a href="#">リンク</a>
-                        <a href="#">リンク</a>
-                        <a href="#">リンク</a>
-                        <a href="#">リンク</a>
-                    </li>
-                </ul>
-                <p class="copyright">Copyright Terano Design Studio All rights reserved.</P>
-            </div>
-        </footer>
+        <?php include "../footer.php" ?>
+        
     </body>
 </html>

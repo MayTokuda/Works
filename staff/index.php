@@ -7,7 +7,7 @@
         <link rel="shortcut icon" href="img/favicon.ico">
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
         <link rel="stylesheet" href="style.css">
-        <title>テラノデザイン工房 | スタッフ一覧</title>
+        <title>テラノデザイン工房 | スタッフ紹介</title>
     </head>
 
     <body>
@@ -15,26 +15,32 @@
         <header class="header">
             <div class="header__inner">
                 <div class="header__item">
-                    <h1 class="site-title visible-pc"><img src="img/logo.png" alt=""></h1></li>
-                    <div class="header__link visible-pc"><a href="index.html">スタッフ紹介</a></div>
+                    <h1 class="site-title"><a href="#"><img src="img/logo.png" alt=""></a></h1>
+                    <div class="header__link visible-pc"><a href="#">スタッフ紹介</a></div>
                 </div>
 
                 <!-- パンくず -->
                 <nav class="breadcrumb" aria-label="Breadcrumb">
                     <ul class="breadcrumb__list">
                         <li class="breadcrumb__item"><a href="#">HOME</a></li>
-                        <li class="breadcrumb__item"><a href="index.html">スタッフ紹介</a></li>
-                        <li class="breadcrumb__item"><span aria-current="location">スタッフ一覧</span></li>
+                        <li class="breadcrumb__item"><span aria-current="location">スタッフ紹介</span></li>
                     </ul>
                 </nav>
+
             </div>
         </header>
 
-        <main id="list-page">
-            <div class="container">
-                <h2 class="page-title">スタッフ一覧</h2>
+        <main>
+            <!-- メインビジュアル -->
+            <img class="mv visible-pc" src="img/mv-pc.png" alt="">
+            <img class="mv visible-sp" src="img/mv-sp.png" alt="">
 
-                <!-- スタッフリスト -->
+            <div class="container">
+                <h2 class="page-title">スタッフ紹介</h2>
+                <p class="page-detail">概要やリード文が入ります概要やリード文が入ります概要やリード文が入ります。<br>
+                    概要やリード文が入ります概要やリード文が入ります概要やリード文が入ります。</p>
+                
+                    <!-- スタッフリスト -->
                 <ul class="staff__list">
                     <li class="staff__item">
                         <img class="staff__img" src="img/staff-1.png" alt="">
@@ -42,7 +48,7 @@
                         <time class="staff__date">2022年3月1日（火）</time>
                         <p class="staff__detail">インタビューテキストインタビューテキストインタビューテキスト
                             インタビューテキストインタビューテキストインタビューテキストインタビューテキスト</p>
-                        <a class="staff-detail__more-btn" href="detail-1.html">続きを読む<span class="arrow-right icon"></span></a>
+                        <a class="staff-detail__more-btn" href="php__detail/detail-1.php">続きを読む<span class="arrow-right icon"></span></a>
                     </li>
                     <li class="staff__item">
                         <img class="staff__img" src="img/staff-2.png" alt="">
@@ -108,92 +114,20 @@
                             インタビューテキストインタビューテキストインタビューテキストインタビューテキスト</p>
                         <a class="staff-detail__more-btn" href="#">続きを読む<span class="arrow-right icon"></span></a>
                     </li>
-                    <li class="staff__item">
-                        <img class="staff__img" src="img/staff-10.png" alt="">
-                        <h3 class="staff__name">名前が入ります（職種が入ります）</h3>
-                        <time class="staff__date">2022年3月1日（火）</time>
-                        <p class="staff__detail">インタビューテキストインタビューテキストインタビューテキスト
-                            インタビューテキストインタビューテキストインタビューテキストインタビューテキスト</p>
-                        <a class="staff-detail__more-btn" href="#">続きを読む<span class="arrow-right icon"></span></a>
-                    </li>
-                    <li class="staff__item">
-                        <img class="staff__img" src="img/staff-11.png" alt="">
-                        <h3 class="staff__name">名前が入ります（職種が入ります）</h3>
-                        <time class="staff__date">2022年3月1日（火）</time>
-                        <p class="staff__detail">インタビューテキストインタビューテキストインタビューテキスト
-                            インタビューテキストインタビューテキストインタビューテキストインタビューテキスト</p>
-                        <a class="staff-detail__more-btn" href="#">続きを読む<span class="arrow-right icon"></span></a>
-                    </li>
-                    <li class="staff__item">
-                        <!-- 空ボックス（※ボックスの数は３の倍数にする） -->
-                    </li>
                 </ul>
 
-                <!-- ページネーション -->
-                <ul class="pagination">
-                    <li class="pagination__item">
-                        <a class="pagination__link back" href="#"><span class="pagination-left icon"></span>前へ</a>
-                    </li>
-                    <li class="pagination__item">
-                        <a class="pagination__link" tabindex="-1">1 / 1</a>
-                    </li>
-                    <li class="pagination__item">
-                        <a class="pagination__link next" href="#">次へ<span class="pagination-right icon"></span></a>
-                    </li>
-                </ul>
+                <!-- 一覧へのリンク -->
+                <a class="staff-list__more-btn"href="list.php">スタッフ一覧を見る<span class="arrow-right icon more-btn__icon"></span></a>
+
             </div>
         </main>
 
-        <aside>
-            <div class="container">
-                <!-- バナー -->
-                <ul class="banner__list visible-pc">
-                    <li class="banner__item">
-                        <a class="banner__link" href="#"><img src="img/banner-img.jpg" alt=""></a>
-                    </li>
-                    <li class="banner__item">
-                        <a class="banner__link" href="#"><img src="img/banner-img.jpg" alt=""></a>
-                    </li>
-                    <li class="banner__item">
-                        <a class="banner__link" href="#"><img src="img/banner-img.jpg" alt=""></a>
-                    </li>
-                    <li class="banner__item">
-                        <a class="banner__link" href="#"><img src="img/banner-img.jpg" alt=""></a>
-                    </li>
-                    <li class="banner__item">
-                        <a class="banner__link" href="#"><img src="img/banner-img.jpg" alt=""></a>
-                    </li>
-                    <li class="banner__item">
-                        <a class="banner__link" href="#"><img src="img/banner-img.jpg" alt=""></a>
-                    </li>
-                </ul>
-            </div>
-        </aside>
+        <!-- aside -->
+        <?php include "aside.php" ?>
 
         <!-- フッター -->
-        <footer class="footer">
-            <div class="container">
-                <ul class="footer__block">
-                    <!-- 会社情報 -->
-                    <li class="footer__item footer__company">
-                        <h4 class="company-name">テラノデザイン工房</h4>
-                        <p class="company-address">
-                            東京都渋谷区ＸＸＸＸＸＸＸＸＸＸＸＸＸ<br>
-                            ＸＸＸＸＸＸＸＸ　３階<br>
-                            TEL 03-XXXX-XXXX　FAX 03-XXXX-XXXX
-                        </p>
-                    </li>
-                    <!-- 外部リンク -->
-                    <li class="footer__item footer__link">
-                        <a href="#">リンク</a>
-                        <a href="#">リンク</a>
-                        <a href="#">リンク</a>
-                        <a href="#">リンク</a>
-                    </li>
-                </ul>
-                
-                <p class="copyright">Copyright Terano Design Studio All rights reserved.</P>
-            </div>
-        </footer>
+        <?php include "footer.php" ?>
+
     </body>
 </html>
+        
