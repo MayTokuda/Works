@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="もりの幼稚園のホームページです。">
+        <link rel="icon" type="image/png" href="img/favicon.png">
+        <!-- slick css -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+        <!-- to: slick css -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>もりの幼稚園</title>
+    </head>
+
+    <body oncontextmenu="return false;">
+        <!-- loding -->
+        <div id="loading-bg">
+            <img class="fadeUp" srcset="img/favicon.png" alt="logo" width="300" height="243">
+        </div>
+
+        <main id="main">
+            <!-- mainvisual -->
+            <div id="mv" class="mv mv__bg">
+                <div class="mv__container">
+                    <picture class="mv__img">
+                        <source srcset="img/mv1-pc.webp" media="(min-width:520px)" type="image/webp" width="1366" height="650">
+                        <img src="img/mv1-sp.webp" media="(max-width:520px)" type="image/webp" alt="" width="750" height="500">
+                    </picture>
+                </div>
+                
+                <div class="mv__decoration">
+                    <picture class="logo__img">
+                        <img srcset="img/logo.webp" type="image/webp" alt="logo" width="476" height="385">
+                    </picture>
+                    <picture class="header-text__img">
+                        <img srcset="img/header-text.webp" type="image/webp" alt="header-text" width="400" height="50">
+                    </picture>
+                    <picture class="icon-honey__img icon-honey__img__1">
+                        <img class="animation keyframe1" srcset="img/icon-honey1.webp" type="image/webp" alt="icon-honey1" width="200" height="159">
+                    </picture>
+                    <picture class="icon-honey__img icon-honey__img__2">
+                        <img class="animation keyframe2" srcset="img/icon-honey2.webp" type="image/webp" alt="icon-honey2" width="200" height="159">
+                    </picture>
+                </div>
+                <div class="icon-flower__bg-container"></div>
+
+            </div>
+
+            <!-- policy -->
+            <section id="policy" class="policy">
+                <div class="section-container policy__container">
+                    <picture class="title__img">
+                        <img  class="animation keyframe3" srcset="img/icon-honey1.webp" type="image/webp" alt="icon-honey1" width="200" height="159">
+                    </picture>
+                    <!-- parentheses -->
+                    <picture class="garland garland__top"><img srcset="img/icon-garland1.webp" type="image/webp" alt="icon-leaf1" width="388" height="291"></picture>
+                    <h2 class="section-title policy__title" data-text="educ. policy">教育方針</h2>
+                    <ul class="policy__list">
+                        <li class="policy__item">
+                            <picture class="policy__item__img"><img srcset="img/policy1.webp" alt="policy1" width="360" height="240"></picture>
+                            <div class="policy__item__text">
+                                <h3 class="policy__item__title">方針</h3>
+                                <p class="policy__item__detail">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                                                                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                            </div>
+                        </li>
+                        <li class="policy__item">
+                            <picture class="policy__item__img"><img srcset="img/policy2.webp" alt="policy2" width="360" height="240"></picture>
+                            <div class="policy__item__text">
+                                <h3 class="policy__item__title">目標</h3>
+                                <p class="policy__item__detail">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                                                                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- parentheses -->
+                    <picture class="garland garland__bottom"><img srcset="img/icon-garland2.webp" type="image/webp" alt="icon-leaf2" width="388" height="291"></picture>
+                </div>
+            </section>
+
+            <!-- program -->
+            <section id="program" class="program">
+                <picture class="icon-rainbow">
+                    <img srcset="img/icon-rainbow.webp" alt="icon-rainbow" width="1895" height="782">
+                </picture>
+                <div class="section-container program__bg">
+                    <picture class="title__img program__title__img">
+                        <img class="animation keyframe4" srcset="img/icon-honey2.webp" alt="icon-honey2" width="200" height="159">
+                    </picture>
+                    <h2 class="section-title" data-text="program">教育内容</h2>
+                    <ul id="slider" class="program__list slick-area">
+                        <li class="program__item">
+                            <img srcset="img/program-1.webp" alt="program-1" width="250" height="250">
+                            <h3 class="program__item__title">食育</h3>
+                            <p class="program__item__text">テキストテキスト。テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。</p>
+                        </li>
+                        <li class="program__item">
+                            <img srcset="img/program-2.webp" alt="program-2" width="250" height="250">
+                            <h3 class="program__item__title">体育指導</h3>
+                            <p class="program__item__text">テキストテキスト。テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。</p>
+                        </li>
+                        <li class="program__item">
+                            <img srcset="img/program-3.webp" alt="program-3" width="250" height="250">
+                            <h3 class="program__item__title">モンテリッソー教育</h3>
+                            <p class="program__item__text">テキストテキスト。テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。</p>
+                        </li>
+                        <li class="program__item">
+                            <img srcset="img/program-4.webp" alt="program-4" width="250" height="250">
+                            <h3 class="program__item__title">英語</h3>
+                            <p class="program__item__text">テキストテキスト。テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- explanation -->
+            <div id="explanation">
+                <div class="bg__position">
+                    <picture class="wave-top wave-img">
+                        <img srcset="img/waveform-top.webp" alt="waveform-top" width="1366" height="256">
+                    </picture>
+                    <p class="bg__text ">もりの幼稚園では、子供たちの「豊かな心」を育むことを大事にしています。<br>
+                        ここに説明テキストが入ります。<br>
+                        ここに説明テキストが入ります。ここに説明テキストが入ります。<br>
+                        ここに説明テキストが入ります。ここに説明テキストが入ります。<br>
+                        ここに説明テキストが入ります。ここに説明テキストが入ります。ここに説明テキストが入ります。</p>
+
+                    <picture class="wave-bottom wave-img">
+                        <img srcset="img/waveform-bottom.webp" alt="waveform-bottom" width="1366" height="256">
+                    </picture>
+                </div>
+            </div>
+
+            <!-- guide -->
+            <section id="guide">
+                <div class="section-container guide__container">
+                    <picture class="title__img">
+                        <img  class="animation keyframe3" srcset="img/icon-honey1.webp" alt="con-honey1" width="200" height="159">
+                    </picture>
+                    <h2 class="section-title" data-text="guide">園のご案内</h2>
+                    <ul class="guide__list">
+                        <li class="guide__item">
+                            <a class="guide__item__link" href="#"><img srcset="img/guide-1.webp" alt="guide-1" width="500" height="280"></a>
+                            <div class="guide__item__text">
+                                <h3 class="guide__item__title"><a href="#">概要</a></h3>
+                                <p class="guide__item__detail">概要の説明のテキストが入ります。概要の説明のテキストが入ります。概要の説明のテキストが入ります。概要の説明のテキストが入ります。概要の説明のテキストが入ります。概要の説明のテキストが入ります。</p>
+                            </div>
+                        </li>
+                        <li class="guide__item">
+                            <a class="guide__item__link" href="#"><img srcset="img/guide-2.webp" alt="guide-2" width="500" height="280"></a>
+                            <div class="guide__item__text">
+                                <h3 class="guide__item__title"><a href="#">施設</a></h3>
+                                <p class="guide__item__detail">施設の説明のテキストが入ります。施設の説明のテキストが入ります。施設の説明のテキストが入ります。施設の説明のテキストが入ります。施設の説明のテキストが入ります。施設の説明のテキストが入ります。</p>
+                            </div>
+                        </li>
+                        <li class="guide__item">
+                            <a class="guide__item__link" href="#"><img srcset="img/guide-3.webp" alt="guide-3" width="500" height="280"></a>
+                            <div class="guide__item__text">
+                                <h3 class="guide__item__title"><a href="#">職員紹介</a></h3>
+                                <p class="guide__item__detail">職員紹介の説明のテキストが入ります。職員紹介の説明のテキストが入ります。職員紹介の説明のテキストが入ります。職員紹介の説明のテキストが入ります。職員紹介の説明のテキストが入ります。職員紹介の説明のテキストが入ります。</p>
+                            </div>
+                        </li>
+                        <li class="guide__item">
+                            <a class="guide__item__link" href="#"><img srcset="img/guide-4.webp" alt="guide-4" width="500" height="280"></a>
+                            <div class="guide__item__text">
+                                <h3 class="guide__item__title"><a href="#">入園について</a></h3>
+                                <p class="guide__item__detail">入園についての説明のテキストが入ります。入園についての説明のテキストが入ります。入園についての説明のテキストが入ります。入園についての説明のテキストが入ります。入園についての説明のテキストが入ります。入園についての説明のテキストが入ります。</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </section>
+
+            <!-- contact -->
+            <section id="contact" class="contact">
+                <div class="section-container contact-container">
+                    <picture class="title__img">
+                        <img  class="animation keyframe4" srcset="img/icon-honey2.webp" alt="con-honey2" width="200" height="159">
+                    </picture>
+                    <h2 class="section-title" data-text="contact">お問い合わせ</h2>
+                    <div class="detail__container">
+                        <p>入園体験に関するご相談は、下記までお願いいたします。</p>
+                        <p class="detail__content">もりの幼稚園　事務局<br>
+                            開園時間　　 平日9:00～18:00<br>
+                            電話　　　　 03-XXXX-XXXX<br>
+                            E-mail　　　 abc@abc.com</p>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <picture class="footer__illustration"><img srcset="img/illustration.webp" alt="illustration"  width="200" height="159"></picture>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <p class="footer__item__online">
+                        <a class="footer__item__link" href="#">
+                            お問い合わせはこちら<img srcset="img/external-link-alt-solid.webp" alt="external-link-alt-solid" width="14" height="14">
+                        </a>
+                    </p>
+                </li>
+                <li class="footer__item">
+                    <p class="footer__item__name">もりの幼稚園</p>
+                    <p class="footer__item__access">〒XXX-XXXX　東京都ＸＸＸＸＸＸＸＸＸＸ<br>TEL：03-XXXX-XXXX</p>
+                </li>
+            </ul>
+            <p class="copyright">Copyright Morino Preschool All Rights Reserved.</P>
+        </footer>
+
+        <!-- jqueryの読み込み -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+        <!-- JS読み込み -->
+        <script src="js/script.js"></script>
+</body>
+</html>
+        
