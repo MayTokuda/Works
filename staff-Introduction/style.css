@@ -1,0 +1,597 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+body {
+    color: #333333;
+    font-family: "メイリオ", "Meiryo","游ゴシック体", 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+li {
+    list-style: none;
+}
+
+/*================================================
+    共通
+================================================*/
+.header{
+    padding-top: 35px;
+}
+.header__inner,
+.container{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.header__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-title img{
+    width: 358px;
+}
+.header__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 44px;
+    border-radius: 12px;
+    background-color: #1ddb07;
+}
+.header__link:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.header__link a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 234px;
+    height: 38px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    border: #ffffff solid 1px;
+    border-radius: 10px;
+    background-color: #1ddb07;
+}
+.breadcrumb {
+    padding: 28px 0 18px;
+}
+.breadcrumb__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.breadcrumb__item {
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+}
+.breadcrumb__item a{
+    color: #1558D6;
+}
+.breadcrumb__item a:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* IE用 */
+}
+.breadcrumb__item:not(:last-child)::after {
+    display: inline-block;
+    padding-left: 3px;
+    margin: 0.25rem;
+    content: ">";
+}
+.visible-sp{
+    display: none;
+}
+.page-title{
+    font-weight: bold;
+    font-size: 36px;
+    text-align: left;
+    color: #333;
+    padding: 69px 0 28px;
+}
+.page-detail{
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+    color: #333;
+    padding-bottom: 98px;
+}
+/*================================================
+    TOP
+================================================*/
+/*== メインビジュアル ===============================*/
+.mv.visible-pc{
+    width: 100%;
+    object-fit: cover;
+    /* object-position: 0 100%; */
+}
+.mv-sp{
+    display: none;
+}
+/*== スタッフ一覧 ===============================*/
+.staff__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.staff__item:nth-child(n+7) {
+    display: none;
+}
+.staff__item{
+    width: 325px;
+    text-align: left;
+    padding: 0 26px 37px;
+    margin: 0 auto;
+}
+.staff__img{
+    display: block;
+    border: 10px solid #f1f1f1;
+    border-radius: 50%;
+    width: 210px;
+    margin: 0 auto;
+}
+.staff__name{
+    position: relative;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 37px;
+}
+.staff__name__1::before{
+    position: absolute;
+    content: url(img/new.svg);
+    display: block;
+    left: -26px;
+    top: -26px;
+}
+.staff__name__2::before{
+    position: absolute;
+    content: url(img/new.svg);
+    display: block;
+    left: -26px;
+    top: -26px;
+}
+.staff__date{
+    font-size: 11px;
+    line-height: 20px;
+}
+.staff__detail{
+    font-size: 13px;
+    line-height: 20px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin: 6px 0 13px;
+}
+.staff-detail__more-btn{
+    font-size: 13px;
+}
+/* アイコン */
+.arrow-right.icon {
+    position: absolute;
+    margin-left: 7px;
+    margin-top: 17px;
+    width: 25.5px;
+    height: 1px;
+    background-color: currentColor;
+}
+.arrow-right.icon:after {
+    content: '';
+    position: absolute;
+    right: 1.5px;
+    top: -3px;
+    width: 7px;
+    height: 10px;
+    border-top: solid 1px currentColor;
+    -webkit-transform: rotate(35deg);
+            transform: rotate(35deg);
+}
+/* アイコン ここまで*/
+.staff-detail__more-btn:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);;
+}
+.staff-list__more-btn{
+    display: block;
+    justify-content: center;
+    width: 240px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 12px;
+    background-color: #1ddb07;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+    padding-right: 45px;
+    margin: 30px auto 126px;
+}
+.staff-list__more-btn:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+/* アイコン */
+.arrow-right.icon.more-btn__icon{
+    margin-left: 20px;
+    margin-top: 22px;
+}
+/*== バナー ===============================*/
+.banner__list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,219px);
+    row-gap: 26px;
+    justify-content: space-between;
+    padding-bottom: 48px;
+    margin: 0;
+    width: 100%;
+}
+.banner__item:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.banner__link{
+    display: block;
+    position: relative;
+}
+.banner__link img{
+    width: 100%;
+}
+.banner__link::before{
+    content: "バナー";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #333333;
+    font-weight: bold;
+}
+/*== フッター ===============================*/
+.footer{
+    background: #f5f5f5;
+    padding: 50px 0 30px;
+}
+.footer__block{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__company{
+    text-align: left;
+}
+.company-name{
+    font-weight: bold;
+    padding-bottom: 17px;
+}
+.company-address{
+    font-size: 12px;
+}
+.footer__link{
+    display: grid;
+    grid-template-columns: 120px 120px;
+    grid-template-rows: 40px 40px;
+    gap: 10px;
+}
+.footer__link a{
+    display: block;
+    line-height: 40px;
+    background-color: #ffffff;
+    border: 1px solid #d6d5d5;
+}
+.footer__link a:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.copyright{
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 50px;
+}
+/*================================================
+    list
+================================================*/
+#list-page .staff__item:nth-child(n+7) {
+    display: block;
+}
+.pagination{
+    display: flex;
+    justify-content: space-between;
+    border-top: 5px solid #1ddb07;
+    border-bottom: 5px solid #1ddb07;
+    padding: 25px 56px;
+    margin: 26px 0 114px;
+}
+/* ページネーション左 */
+.pagination__item:first-child{
+    position: relative;
+}
+.pagination-left.icon {
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 12px;
+    width: 14px;
+    height: 1px;
+    background-color: #707070;
+}
+.pagination-left.icon:after {
+    content: '';
+    position: absolute;
+    left: -3px;
+    top: -10px;
+    width: 7px;
+    height: 10px;
+    border-top: solid 1px #707070;
+    -webkit-transform: rotate(145deg);
+            transform: rotate(145deg);
+}
+/* ページネーション右 */
+.pagination__item:last-child{
+    position: relative;
+}
+.pagination-right.icon {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 13px;
+    width: 14px;
+    height: 1px;
+    background-color: #707070;
+}
+.pagination-right.icon:after {
+    content: '';
+    position: absolute;
+    right: 2px;
+    top: -3px;
+    width: 7px;
+    height: 10px;
+    border-top: solid 1px #707070;
+    -webkit-transform: rotate(35deg);
+            transform: rotate(35deg);
+}
+.pagination__link.back:hover,
+.pagination__link.next:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.pagination__link{
+    font-size: 13px;
+}
+/*================================================
+    detail
+================================================*/
+#detail-page.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#detail-page .main{
+    width: 63%;
+}
+#detail-page .interview{
+    width: 25%;
+}
+#detail-page .staff__box{
+    text-align: left;
+}
+
+#detail-page .page-title{
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+#detail-page .staff__date{
+    text-align: left;
+}
+#detail-page .staff__sns{
+    display: flex;
+    justify-content: left;
+}
+#detail-page .staff__sns__link{
+    width: 34px;
+    height: 34px;
+    border: 1px solid #707070;
+    border-radius: 50%;
+    opacity: 0.34;
+    text-align: center;
+    line-height: 34px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+#detail-page .staff__sns__link:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+/*== 記事 ===============================*/
+.article__item{
+    padding-top: 75px;
+}
+.article__title{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.article__img__right{
+    float: right;
+    margin: 0 0 45px 40px;
+    width: 274px;
+    height: 188px; 
+    border-radius: 15px;
+}
+.article__img__left{
+    float: left;
+    margin: 0 40px 45px 0;
+    width: 274px;
+    height: 188px; 
+    border-radius: 15px;
+}
+.article__text{
+    font-size: 13px;
+    line-height: 26px;
+    word-break: break-all;
+}
+.continue{
+    text-align: center;
+    padding: 18px 0;
+}
+/*== インタビュー ===============================*/
+.interview{
+    padding-top: 69px;
+}
+.interview__title{
+    font-size: 24px;
+    text-align: left;
+    padding-bottom: 25px;
+}
+.interview__item{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 18px 0 13px;
+    border-top: 1px dashed #727272;;
+}
+.interview__item:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.interview__item:last-child{
+    border-bottom: 1px dashed #727272;;
+}
+.interview__img{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #f1f1f1;
+    border-radius: 50%;
+}
+.interview__detail{
+    align-items: center;
+    text-align: left;
+    padding-left: 10px;
+}
+.interview__name{
+    font-size: 13px;
+    font-weight: normal;
+    padding-top: 5px;
+}
+.interview__date{
+    font-size: 11px;
+    vertical-align: top;
+}
+
+/*================================================
+    レスポンシブ
+================================================*/
+@media screen and (max-width: 1090px) {
+    /*== 共通 ===============================*/
+    .header__inner,
+    .container{
+        width: calc(100% - 60px);
+    }
+    /*== detail ===============================*/
+    #detail-page{
+        padding: 0 30px;
+    }
+    /*== バナー ===============================*/
+    .banner__list{
+        max-width: 710px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 900px) {
+    /*== 共通 ===============================*/
+    .visible-pc{
+        display: none;
+    }
+    .visible-sp{
+        display: block;
+        object-fit: cover;
+        width: 100%;
+        height: 50vw;
+    }
+    /* ページネーション */
+    .page-title{
+        font-size: 24px;
+    }
+    .pagination{
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+    /*== detailページ ===============================*/
+    #detail-page .visible-pc{
+        display: block;
+    }
+    #detail-page .visible-sp{
+        display: none;
+    }
+    /* 記事 */
+    .article__img__right{
+        float: none;
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+    .article__item{
+        padding-top: 25px;
+    }
+    .article__img__left{
+        float: none;
+        width: 100%;
+        height: 100%;
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .continue{
+        padding-top: 50px;
+    }
+    .staff-list__more-btn{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    /*== detailページ ===============================*/
+    #detail-page .visible-sp{
+        display: block;
+    }
+    #detail-page .visible-pc{
+        display: none;
+    }
+    #detail-page .main{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 569px) {
+    /*== TOP ===============================*/
+    /* footer */
+    .footer{
+        padding: 38px 0 34px;
+    }
+    .footer__block{
+        flex-direction: column-reverse;
+    }
+    .footer__company{
+        padding-top: 25px;
+    }
+    .footer__link{
+        display: grid;
+        grid-template-columns: 120px 120px;
+        grid-template-rows: 40px 40px;
+        justify-content: center;
+    }
+    .copyright{
+        text-align: left;
+        margin-top: 35px;
+    }
+}
